@@ -10,3 +10,5 @@ Text-Generation-WebUI
 Story-Telling-App
 
 1. start App : npm run dev
+
+This React (Next.js) frontend uses the useChat hook from ai/react, which is a wrapper for Vercel AI SDK. The useChat hook internally sends requests to a backend API route when append() is called.
